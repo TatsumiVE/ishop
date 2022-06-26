@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    max-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+.alert {
+    color: #fff;
+    background-color: #3236a8;
+    font-size: 0.8rem;
+    border-radius: 0;
+}
+/* Start Navbar */
+.navbars {
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+}
+
+.navmenus {
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 5px 20px;
+
+    transition: all 2s;
+}
+
+.menuitems {
+    color: #222;
+}
+
+.menuitems:hover {
+    color: #0a11ca;
+}
+p {
+    font-size: 0.7rem;
+}
+.pays {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0rem 0.2rem;
+}
+
+.payimgs {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.times {
+    width: auto;
+}
+.timetexts {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+/* End Navbar */
+.scroll {
+    height: 100vh;
+}
+
+.carousel-item {
+    height: 70vh;
+}
+.cubuttons {
+    background-color: #efefef;
+    color: #0a11ca;
+
+    font-size: 1.2rem;
+
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+    cursor: pointer;
+}
